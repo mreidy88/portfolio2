@@ -201,3 +201,8 @@ img {
   display: flex;
   justify-content: center;
 }
+
+.btn-sub-btn-info {
+  display: flex;
+  justify-content: center;
+}

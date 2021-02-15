@@ -3,6 +3,7 @@ import myLogo from '../Images/siteLogo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
+
 const Nav = () => {
     return (
 <nav className="navbar navbar-expand-lg navbar-light bg-dark">
@@ -19,19 +20,19 @@ const Nav = () => {
           <a class="nav-link " aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Me</a>
+          <a class="nav-link" href="/About">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="#">Portfolio</a>
+          <a class="nav-link " aria-current="page" href="/Portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
+          <a class="nav-link" href="/Blog">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="#">Contact</a>
+          <a class="nav-link " aria-current="page" href="/Contact">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Links</a>
+          <a class="nav-link" href="/Footer">Links</a>
         </li>
 
         </ul>
